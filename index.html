@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Display local weather</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css'>
+<link rel='stylesheet prefetch' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <section id="weather-container" class="hero is-fullheight is-dark">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h3 class="title is-2">
+         <strong>
+           <i id="weather-icon"></i>
+           <span id="weather-text">Weather App</span>
+        </strong>
+      </h3>
+      <h4 class="subtitle is-3">
+              <a href="#"  id="weather-temp"></a>
+      </h4>
+      <h4 id="weather-location" class="subtitle is-4">Loading weather data...</h4>
+
+    </div>
+  </div>
+</section>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.15.3/axios.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
